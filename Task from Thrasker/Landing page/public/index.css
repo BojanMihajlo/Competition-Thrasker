@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.nav-hero {
+  background-image: url("/Landing page/Images/top-left-pattern.png"),
+    url("/Landing page/Images/top-right-pattern.png");
+  background-repeat: no-repeat;
+  background-position: left top, right top;
+  background-size: 33%, 37%;
+}
+
+nav ul li {
+  font-size: 14px;
+}
+.btn-nav a,
+.btn-two {
+  font-size: 14px;
+}
+
+/* Css for Nav bar and nav-hero completed */
+.detect {
+  list-style-type: disc;
+  color: blue;
+}
+
+.hero-title h1 {
+  font-size: 52px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+}
+.hero-title p {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.hero-con {
+  position: relative;
+  margin-top: 2%;
+}
+/* Css for button and hero section completed */
+
+.gradient {
+  padding-top: 25%;
+  height: 58%;
+  width: 100%;
+  background-image: linear-gradient(to top, white, transparent);
+  position: absolute;
+  top: 220px;
+  left: 0;
+}
+.hero-image img {
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+}
+/* Css for image with gradient to white completed */
+
+.hero-second {
+  margin-top: 4%;
+  padding: 3.5%;
+  border-radius: 15px;
+}
+h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+.hero-second p {
+  font-size: 12px;
+}
+.hero-second img {
+  border-radius: 20px;
+}
+h3 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+/* Css for hero-second all h2 and h3 completed  */
+
+.cart-service {
+  border-radius: 15px;
+}
+.blue-arrow {
+  margin-top: -18%;
+  margin-right: -18%;
+  border-radius: 0 0 0 15px;
+  position: relative;
+}
+
+.blue-arrow::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  bottom: -50px;
+  height: 50px;
+  width: 25px;
+  border-top-right-radius: 25px;
+  right: 1px;
+  box-shadow: 0 -25px 0 0 white;
+}
+
+.blue-arrow::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  top: 1px;
+  height: 50px;
+  width: 25px;
+  border-top-right-radius: 25px;
+  left: -25px;
+  box-shadow: 0 -25px 0 0 white;
+}
+.logo-blue {
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
+/* Css for cards and blue cards with specific border completed */
+
+.card-article img {
+  border-radius: 10px;
+}
+.card-article h5 {
+  font-size: 16px;
+}
+.card-article h4 {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.testimonials-section {
+  padding: 5%;
+  border-radius: 25px;
+  margin-bottom: 10%;
+}
+.testimonials-section p,
+.subscribe p {
+  font-size: 12px;
+}
+span {
+  font-size: 22px;
+}
+.subscribe h2 {
+  word-spacing: 0.05mm;
+  padding-left: 4%;
+}
+.subscribe {
+  border-radius: 20px;
+}
+/* Css for cards  and testimonial-section completed.. */
+
+.footer {
+  background-image: url("/Landing page/Images/footer-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+}
+.opacity-div {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  backdrop-filter: blur(20px);
+  z-index: 10;
+}
+
+.footer p {
+  font-size: 12px;
+  padding: 6px;
+  color: gray;
+  margin-bottom: 2%;
+}
+
+/* Css for footer completed */
+
+@media screen and (max-width: 768px) {
+  .hero-title h1 {
+    font-size: 30px;
+  }
+  .btn-nav a,
+  .btn-two {
+    font-size: 12px;
+  }
+  .gradient {
+    visibility: hidden;
+  }
+  h2 {
+    font-size: 22px;
+    font-weight: 300;
+  }
+  h3 {
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .card-article h4 {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .card-article h5 {
+    font-size: 10px;
+  }
+  .blue-arrow {
+    visibility: hidden;
+  }
+  .btn-contact {
+    font-size: 12px;
+  }
+  .footer p {
+    font-size: 12px;
+    padding: 4px;
+  }
+}
+
+/* Media query for tablet completed.. */
+
+@media screen and (max-width: 426px) {
+  .footer p {
+    font-size: 8px;
+    padding: 1px;
+  }
+  .subscribe h2 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .subscribe {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .hero-title p {
+    font-size: 8px;
+    text-transform: capitalize;
+  }
+
+  .btn-contact {
+    font-size: 8px;
+  }
+  .copyright {
+    border-radius: 15px;
+    margin-top: 5%;
+    display: block;
+  }
+}
+
+/* Media query for mobile device completed */

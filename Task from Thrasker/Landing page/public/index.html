@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document1</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</head>
+<body class="bg-white font-manrope">
+  <section class="text-center nav-hero m-0">
+   
+  <div>
+   <nav class="flex justify-center items-center mt-4 ">
+      
+            <div >
+              <img src="/Landing page/Images/logo-two.png" class=" hidden md:block  rounded-full bg-gray-50 p-2 m-1  hover:bg-gray-200 "  alt="">
+            </div>
+            <div class="md: bg-gray-100 rounded-full p-3.5 m-1  ">
+              <ul class=" hidden md:flex items-center nav-links">
+                <li>
+                <a href="#" class=" p-2 m-1  text-gray-500 hover:text-gray-900 hover:bg-gray-200 hover:rounded-full" aria-current="page">Home</a>
+                </li>
+                <li>
+                <a href="#" class=" p-2  m-1 text-gray-500 hover:text-gray-900 hover:bg-gray-200 hover:rounded-full" aria-current="page">About</a>
+              </li>
+              <li>
+                <a href="#" class=" p-2 m-1 text-gray-500  hover:text-gray-900 hover:bg-gray-200 hover:rounded-full" aria-current="page">Science & Applications</a>
+              </li>
+              <li>
+                <a href="#" class=" p-2 m-1 text-gray-500  hover:text-gray-900 hover:bg-gray-200 hover:rounded-full" aria-current="page">News</a>
+              </li>
+              <li>
+                <a href="#" class=" p-2 m-1 text-gray-500  hover:text-gray-900 hover:bg-gray-200 hover:rounded-full" aria-current="page">Contact</a>
+              </li>
+              </ul>
+              </div>
+             <div class="flex  rounded-full bg-blue-500 lg: px-6 py-3 md:px-3 m-1 text-white hover:bg-blue-200 hover:text-black">
+              <button class="btn-nav"> <a href="">Get In Touch</a> </button>
+              <img src="/Landing page/Images/button-arrow.svg" class="size-3 m-1 " alt="">
+             </div>  
+             <ion-icon name="menu-outline" class="md:hidden size-10" onclick="onToggleMenu(this)"></ion-icon>  
+      
+   </nav>
+
+   <!-- The nav-bar is complete with logo and all the buttons having at hover, and it is responsive.
+    Background contain two images which is set on nav-hero section.
+   For the mobile display have ion-icon-menu (hamburger menu) with toggle function. -->
+
+   <div class="mt-12 hero-title">
+    <button class="px-6 py-1 m-2 rounded-full bg-blue-100 text-sm font-bold hover:bg-blue-400"> <ul><li class="detect">Detect-ION</li></ul></button>
+
+    <h1 class="md:font-bold mt-2">Revolutionizing & Democratizing</h1>
+    <h1 class="md:font-bold m-0">Mass Spectometry!</h1>
+    <p class="mt-3 text-gray-900">Chip-Scale mass spectometry delivers molecular analysis at the point of need!</p>
+
+     <div class="flex justify-center items-center mt-2 btn-two">
+
+      <div class="flex  rounded-full bg-blue-500 px-6 py-3 m-2 text-white  hover:bg-blue-200  hover:text-black">
+        <button> Contact Us Today</button>
+        <img src="/Landing page/Images/button-arrow.svg" class="size-3 m-1 " alt="">
+       </div> 
+       <button class="px-5 py-3 m-2 bg-gray-100 rounded-full font-bold hover:bg-gray-400">Explore Services</button>
+     </div>
+   </div> 
+  </div>
+  </section>
+
+   <!-- The hero-title div have one button first,two h1 titles one paragraph and then two buttons -->
+   <!-- First section completed -->
+
+  <section >
+    <div class="container mx-auto w-2/3 hero-con">
+      
+      <div class=" hero-image ">
+        <div class="gradient"></div>
+        <img src="/Landing page/Images/hero-video-img.jpg" class="w-full " alt="">
+      </div>
+    </div>
+    <div class="container mx-auto  hero-second w-2/3 bg-gray-100">
+      <div class="grid grid-cols-2 ">
+        <div class=" text-center">
+          <button class="px-6 py-1 m-2 rounded-full bg-blue-100 text-sm font-bold hover:bg-blue-400 "> <ul><li class="detect">About Us </li></ul></button>
+          <h2 class="lg:ml-28 md:ml-1">About Detect-ion</h2>
+        </div>
+        <div class="">
+           <p class="text-gray-700 mt-1">Detect-ION is the place where relentless scientific ingenuity meets astute system engineering and problem-oriented data analitics
+            to deliver world-changing sensing solutions for enhanced national security, public safety, enviromental monitoring, and health diagnostics.
+           </p>
+        </div>
+      </div>
+      <div class="mt-10">
+         <img src="/Landing page/Images/about-us.jpg"  alt="">
+      </div>
+    </div>
+  </section>
+
+   <!-- Second section contain two container divs, first with -hero image which have gradient div,second div contain
+   two divs first with button,h2 title and paragraph and second div contain image. -->
+  <!-- Second section completed -->
+
+  <section>
+  <div class="container mx-auto w-2/3 service-section mt-10">
+    <div class="text-center"> 
+    <button class="px-6 py-1 m-2 rounded-full bg-blue-100 text-sm font-bold hover:bg-blue-400 "> <ul><li class="detect">Our Services </li></ul></button>
+    <h2>Explore Services</h2>
+    </div>
+
+  <div class="grid lg:grid-cols-3 grid-rows-2 md:grid-cols-2 gap-8 mt-10 mb-5">
+    <div class="bg-gray-100 p-10 cart-service" >
+     <div class="flex justify-between mb-16">
+       <img src="/Landing page/Images/first-service.svg" class="size-10" alt="">
+       <img src="/Landing page/Images/arrow-services (1).svg" class="size-4" alt="">
+     </div>
+     <h3 class="mb-3">Point-of-Care Health Diagnostics</h3>
+    </div>
+
+    <div class="bg-gray-100 p-10 cart-service" >
+      <div class="flex justify-between mb-20">
+        <img src="/Landing page/Images/second-service.svg" class="size-10" alt="">
+        <img src="/Landing page/Images/arrow-services (1).svg" class="size-4" alt="">
+      </div>
+      <h3 class="mb-3 ">Security and Survivability</h3>
+     </div>
+
+     <div class="bg-gray-100 p-10 cart-service" >
+      <div class="flex justify-between mb-20">
+        <img src="/Landing page/Images/third-service.svg" class="size-10" alt="">
+        <img src="/Landing page/Images/arrow-services (1).svg" class="size-4" alt="">
+      </div>
+      <h3 class="mb-3">Water Quality Assurance</h3>
+     </div>
+
+     <div class="bg-blue-500 p-10 cart-service" >
+      <div class="flex justify-between mb-20">
+        <img src="/Landing page/Images/fourth-service.svg" class="size-10" alt="">
+        <div class="bg-white p-9 blue-arrow">
+        <img src="/Landing page/Images/button-arrow.svg" class="size-5 logo-blue  " alt="">
+        </div>
+      </div>
+      <h3 class="pt-6 text-white">Public Safety</h3>
+     </div>
+
+     <div class="bg-gray-100 p-10 cart-service" >
+      <div class="flex justify-between mb-20">
+        <img src="/Landing page/Images/fifth-service.svg" class="size-10" alt="">
+        <img src="/Landing page/Images/arrow-services (1).svg" class="size-4" alt="">
+      </div>
+      <h3 class="mb-3">Enviromental Monitoring</h3>
+     </div>
+
+     <div class="bg-gray-100 p-10 cart-service" >
+      <div class="flex justify-between mb-20">
+        <img src="/Landing page/Images/sixth-service.svg" class="size-10" alt="">
+        <img src="/Landing page/Images/arrow-services (1).svg" class="size-4" alt="">
+      </div>
+      <h3 class="mb-3">Process Analytical Tools</h3>
+     </div>
+
+  </div>
+
+   <div class="flex justify-center w-1/5 rounded-full mx-auto text-center text-sm bg-blue-500 lg:px-2 py-3 m-1  text-white hover:bg-blue-200 hover:text-black">
+    <button class="btn-contact"> Contact Now </button>
+    <img src="/Landing page/Images/button-arrow.svg" class="size-3 md:block hidden" alt="">
+   </div> 
+   </div>
+   </section>
+
+   <!-- Third section with container div have first one div with button and h2 title,second have div grid col-3 and grid-rows-2
+   for the carts and continues with six div with cards.One of cards have borders that i made with position and box shadow
+   in css.Next and finally have another div with button. -->
+  <!-- Third section completed -->
+
+   <section>
+    <div class="container mx-auto w-2/3 article-section mt-28 mb-12">
+      <div class="text-center"> 
+        <button class="px-6 py-1 m-2 rounded-full bg-blue-100 text-sm font-bold hover:bg-blue-400 "> <ul><li class="detect">Our Services </li></ul></button>
+        <h2>News & Articles</h2>
+      </div>
+      <div class="grid md:grid-cols-3  gap-8 mt-10 mb-5">
+        <div class="max-w-sm card-article">
+           <img src="/Landing page/Images/article-one.jpg" class="w-full lg:h-48"  alt="">
+           <div class="flex justify-between text-gray-400 mt-3 mb-2">
+            <h5>Blog</h5>
+            <h5>February 14,2024</h5>
+           </div>
+           <h4>Detect-ION aims to tame hazardous aerosols.</h4>
+           <button class="px-6 py-3  mt-3 rounded-full bg-blue-100 text-sm font-bold hover:bg-blue-400 detect">Prnewswire</button>
+        </div>
+        <div class="max-w-sm card-article">
+          <img src="/Landing page/Images/article-two.jpg" class="w-full max-h-full"  alt="">
+          <div class="flex justify-between text-gray-400 mt-3 mb-2">
+           <h5>Blog</h5>
+           <h5>February 14,2024</h5>
+          </div>
+          <h4>DIU/DTRA partners with Detect-ION.</h4>
+          <button class="px-6 py-3  mt-3 rounded-full bg-blue-100 text-sm font-bold hover:bg-blue-400 detect">Prnewswire</button>
+       </div>
+       <div class="max-w-sm card-article">
+        <img src="/Landing page/Images/article-three.jpg" class="w-full max-h-full"  alt="">
+        <div class="flex justify-between text-gray-400 mt-3 mb-2">
+         <h5>Blog</h5>
+         <h5>February 14,2024</h5>
+        </div>
+        <h4>SPIE  conference</h4>
+        <h4>(Orlando,FL)</h4>
+        <button class="px-6 py-3  mt-3 rounded-full bg-blue-100 text-sm font-bold hover:bg-blue-400 detect">Diu</button>
+     </div>  
+      </div>
+      <div class="lg:pt-16  md:pt-8   grid lg:grid-cols-3 md:grid-cols-1 md:mb-4   partners">
+        <h2 class="md:mb-5">Our Partners</h2>
+        <div class="col-span-2 flex justify-between text-gray-200 opacity-50 ">
+         <div class="w-12  h-6 md:block hidden"> <img src="/Landing page/Images/logo-one.png"  alt=""></div>
+         <div class="w-32 h-32 md:block hidden"> <img src="/Landing page/Images/logo-two (1).png"  alt=""></div>
+         <div class="w-8 h-8 md:block hidden"> <img src="/Landing page/Images/logo-three.png"  alt=""></div>
+         <div class="md:w-20 md:h-20 sm:w-10 sm:h-10"> <img src="/Landing page/Images/logo-four.png"  alt=""></div>
+         <div class="md:w-28 md:h-28 sm:w-16 sm:h-16"> <img src="/Landing page/Images/logo-five.png"  alt=""></div>
+         <div class="md:w-28 md:h-28  sm:w-16 sm:h-16"> <img src="/Landing page/Images/logo-six.png"  alt=""></div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+    <!-- Four section contain first one div with button and h2 title,then have div grid-cols-3 with three div-cards.
+    Each div-cards have image, two h5 title,two h4 title and button.Finally this section contain div with h2 title 
+    and six div with logos which are customize inline with tailwind. -->
+   <!-- Four section completed -->
+
+   <section>
+    <div class="container mx-auto w-2/3 testimonials-section bg-gray-100">
+      <div class="flex">
+        <button class="px-6 py-1 m-2 rounded-full bg-blue-100 text-sm font-bold hover:bg-blue-400 "> <ul><li class="detect">Testimonials </li></ul></button>
+       <h2 class="mt-1">What our clients say</h2>
+      </div>
+      <div class="border-b-2 border-gray-300 text-gray-500 grid grid-cols-3 mt-10">
+        <div></div>
+         <div class="col-span-2">
+       <p >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repudiandae ea adipisci ipsa
+           excepturi accusantium quo illo hic voluptatum reprehenderit quibusdam nihil, eos voluptatem, 
+           enim eius ipsum exercitationem animi quos? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           enim eius ipsum exercitationem animi quos? Lorem ipsum dolor sit amet consectetur adipisicing elit
+           enim eius ipsum exercitationem animi quos? Lorem ipsum dolor sit amet consectetur adipisicing elit
+        </p>
+        <p class="my-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, facilis! Inventore sunt sit explicabo maxime,
+           quos aliquid perspiciatis non voluptatibus ipsum libero autem illum? Esse natus perspiciatis adipisci sit blanditiis.       
+        </p>
+      </div> 
+      </div>
+      <div class="mt-8 grid grid-cols-7 ">
+        <div class="col-span-2">
+          <span class="text-blue-500">01</span>
+          <span>/06</span>
+        </div>
+        <div class="col-span-4 pl-6">
+          <span>David K.</span>
+          <span class="text-blue-500">Happy Customer</span>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto md:w-2/3  md:p-8  subscribe absolute z-10  lg:left-[245px] lg:bottom-[-428%] md:left-[128px] md:bottom-[-465%] sm:bottom-[-2px] bg-white">
+    <div class="grid lg:grid-cols-2 ">
+      <div >
+        <h2>Don't want to miss anything?</h2>
+        <p class="mt-3 md:pl-5 md:mb-3 md:block hidden   text-gray-500">Sign up for our newsletter to discover winning trends before your competition?</p>
+      </div>
+      <div class="relative lg:pl-8 ">
+   <div class="flex !absolute right-2 top-2  z-10 select-none rounded-full text-white bg-blue-500 py-3 px-5 text-center align-middle  hover:bg-blue-200  hover:text-black">
+      <button
+      class=" text-sm "
+      type="button"
+      data-ripple-light="true"
+    >
+      Subscribe
+    </button>
+    <img src="/Landing page/Images/button-arrow.svg" class="size-3 m-1 " alt="">
+  </div>
+    <input
+      type="email"
+      class="peer h-[59px] w-full rounded-full border border-blue-gray-200 bg-gray-100 px-3 py-2.5 pr-20  text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-white focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
+      placeholder=" "
+      required
+    />
+    <label class="before:content[' '] after:content[' '] pointer-events-none absolute left-10 top-1 flex h-14 w-96 select-none text-[11px] font-normal leading-tight text-gray-400 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-blue-gray-200 before:transition-all after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-blue-gray-200 after:transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[3.75] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-blue-500 peer-focus:before:border-t-2  peer-disabled:peer-placeholder-shown:text-blue-gray-500">
+      youremail@example.com
+    </label>
+    </div>
+  </div>
+    </div>
+   </section>
+
+   <!-- Five section contain four main divs and first div have one button and h2 title,second div have two paragraph text,
+   third div have four span elements and four div which is outside from previous three contain h2 title ,paragraph
+   and input with button which i was made with class in tailwild. -->
+   <!-- Five section completed -->
+
+    <section>
+      <div class="footer relative">
+        <div class="opacity-div overlay">
+          <div class="container mx-auto w-2/3">
+            <div class="flex justify-between mt-4">
+               <div >
+                <h6 class="font-bold p-[9px]">Quick Links</h6>
+                <p><a href="#">Home</a></p>
+                <p><a href="#">About</a></p>
+                <p><a href="#">Science & Aplicattions</a></p>
+                <p><a href="#">News</a></p>
+                <p><a href="#">Contact</a></p>
+               </div>
+
+               <div class="md:block hidden">
+                <h6 class="font-bold p-[9px]">Services</h6>
+                <p><a href="#">Point-of-Care Health Diagnostics</a></p>
+                <p><a href="#">Security and Survivability</a></p>
+                <p><a href="#">Water Quality Assurance</a></p>
+                <p><a href="#">Public Safety</a></p>
+                <p><a href="#">Enviromental Monitoring</a></p>
+                <p><a href="#">Process Analytical Tools</a></p>
+               </div>
+
+               <div >
+                <h6 class="font-bold p-[9px]">Contact</h6>
+                <p>(727) 251-0889</p>
+                <p>ashish.chaudhary@detect-ion.com</p>
+                <p>6812 W Linebaugh Ave Tampa</p>
+                <p>Florida,33625 United States</p>
+                
+               </div>
+            </div>
+            <div class="flex justify-between rounded-t-xl bg-white px-5 py-[6px] copyright ">
+              <div class="flex">
+                <img src="/Landing page/Images/logo-two.png" class=" hidden lg:block  rounded-full   m-1 "  alt="">
+                <h6 class="text-sm mt-2 hidden lg:block">&copy 2024 Detect-ion</h6>
+                <p class="text-sm mt-2 lg:hidden">&copy 2024 Detect-ion</p>
+              </div>
+              <div>
+                <h6 class="text-sm mt-2 hidden lg:block">All Rights Reserved | Website Development By:Thrasker.</h6>
+                <p class="text-sm mt-2 lg:hidden">All Rights Reserved | Website Development By:Thrasker.</p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <!-- Footer section first contain one main div with background image and overlay div with half opacity ,then have three divs
+    with h6 title and paragraphs with a tag ,finally have white div with image-logo h6 titles and hidden paragraphs for other
+    devices. -->
+    <!-- Footer completed -->
+
+<script>
+  const navLinks = document.querySelector('.nav-links')
+  function onToggleMenu(e) {
+    e.name =e.name === 'menu' ? 'close' : 'menu'
+    if (e.name === 'close'){
+    navLinks.classList.remove('hidden')
+  }
+    if (e.name==='menu') {
+      navLinks.classList.add('hidden')
+    }
+  }
+</script>
+
+ <!-- Script code for dinamic hamburger menu with toggle function and toggle icon for close and menu  -->
+  
+</body>
+</html>
